@@ -8,6 +8,6 @@ $(objects): $(classes) operations.h
 	cc -c $(classes) operations.h
 
 clean:
-	rm -f calculator $(objects)
+	rm -f calculator operations.h.gch $(objects)
 
 .PHONY: clean
